@@ -6,7 +6,7 @@
  You may not sell this script.
  It is supplied in the hope that it may be useful.
  * @project_name : Free Bot script
- * @author : Malvin King <https://github.com/kingmalvn>
+ * @author : Brokentech<https://github.com/Voltage13x>
  * @description : A Multi-functional whatsapp bot script.
  * @version 3.0.0
  **/
@@ -48,7 +48,7 @@ const ownerNumber = ['2347052022545']
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("MALVIN-XD~", '');
+const sessdata = config.SESSION_ID.replace("Broken-XD~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -99,7 +99,7 @@ let up = `*╭──────────────●●►*
 
 *https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z*
 
-*YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${prefix}*
+*Broken-MD ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${prefix}*
 
 *╰──────────────●●►*`;
 conn.sendMessage(conn.user.id, { image: { url: config.MENU_IMG }, caption: up })
