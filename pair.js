@@ -5,7 +5,7 @@ const pino = require("pino");
 const { Storage } = require("megajs");
 
 const {
-    default: Malvin_Tech,
+    default: Broken_tech,
     useMultiFileAuthState,
     delay,
     makeCacheableSignalKeyStore,
@@ -149,7 +149,7 @@ router.get('/', async (req, res) => {
         }
     }
 
-    await MALVIN_PAIR_CODE();
+    await Broken_PAIR_CODE();
 });
 
 module.exports = router;
