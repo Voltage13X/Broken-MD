@@ -1,16 +1,16 @@
 {
   "description": "Broken-session",
-  "main": "./malvin.js",
+  "main": "./Broken.js",
   "type": "commonjs",
   "engines": {
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "pm2 start malvin.js --deep-monitoring --attach --name malvin",
-    "stop": "pm2 stop malvin",
-    "restart": "pm2 restart malvin"
+    "start": "pm2 start malvin.js --deep-monitoring --attach --name Broken",
+    "stop": "pm2 stop Broken",
+    "restart": "pm2 restart Broken"
   },
-  "author": "Malvin Tech",
+  "author": "𝐵𝑟𝑜𝑘𝑒𝑛 𝙏𝙚𝙘𝙝",
   "license": "GPL-3.0 license",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.7",
