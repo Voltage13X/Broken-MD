@@ -15,7 +15,7 @@ app.listen(PORT, () => {
     console.log(`
 Deployment Successful!
 
- Session-Server Running on http://localhost:` + PORT)
+ Session-Server Running on http://localhost:` + 8000)
 })
 
 module.exports = app
