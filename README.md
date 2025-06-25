@@ -24,7 +24,7 @@
 
 > To deploy, generate your session ID from the link below:
 <p align="left">
-  <a href="file:///storage/emulated/0/Telegram/Telegram%20Files/session%20script%20bu%20malvin%20k/pair.html?">
+  <a href="http://localhost:8080/pair.html?">
     <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
   </a>
 </p>
